@@ -5,6 +5,7 @@ exports.connect = () => {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
+    console.log("db connetion established");
   } catch (err) {
     console.log(err);
     process.exit();
